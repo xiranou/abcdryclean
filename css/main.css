@@ -655,6 +655,7 @@ input.search-form:hover {
 #services {
   background: #000 url(../images/services/bg_services.png);
   background-size: cover;
+  padding-top: 2em;
 }
 
 #services .lead,

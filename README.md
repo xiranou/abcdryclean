@@ -1,1 +1,1 @@
-Official site for ABC dry clean
+Official site for [All Being Clean](http://abcdryclean.com)

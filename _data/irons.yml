@@ -1,0 +1,8 @@
+- service: Shirt
+  price: 3.00
+- service: Pants
+  price: 3.50
+- service: Suit（2PC）
+  price: 8.50
+- service: Dress
+  price: 6.00

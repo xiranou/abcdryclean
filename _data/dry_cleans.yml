@@ -1,0 +1,40 @@
+- service: SHIRTS
+  price: 4.00
+- service: Pants
+  price: 5.25
+- service: Suit 2 Piece
+  price: 11.75
+- service: Jacket
+  price: 5.95
+- service: Heavy Jacket
+  price: 9.50
+- service: Coat
+  price: 18.00
+- service: Scarf / Glove/Tie/Hat
+  price: 4.50
+- service: Blouse
+  price: 4.90
+- service: Sweater
+  price: 5.25
+- service: Dress
+  price: 8.75
+- service: Skirt
+  price: 5.25
+- service: Down Jacket
+  price: 20.00
+- service: Down Coat
+  price: 23.00
+- service: Down Comforter
+  price: 28.00
+- service: Leather Jacket
+  price: 45.00  (15days)
+- service: BLANKET
+  price: 15.00
+- service: COMFORTER
+  price: 18.00
+- service: BLIND / Curtain
+  price: 18.00
+- service: BED SHEET
+  price: 12.00
+- service: PILLOW
+  price: 8.00

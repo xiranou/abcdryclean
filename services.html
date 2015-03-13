@@ -20,3 +20,13 @@ layout: default
     </tr>
   {% endfor %}
 </table>
+
+<table>
+  <caption>Dry Clean</caption>
+  {% for dry_clean in site.data.dry_cleans %}
+    <tr>
+      <td>{{dry_clean.service}}</td>
+      <td>${{dry_clean.price}}</td>
+    </tr>
+  {% endfor %}
+</table>

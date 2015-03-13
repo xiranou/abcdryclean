@@ -1,0 +1,38 @@
+- service: Pants Shorten
+  price: 12
+- service: Pants with lining shorten
+  price: 13
+- service: Dress shorten
+  price: 18 up
+- service: Dress with lining shorten
+  price: 20 up
+- service: Skirt shorten
+  price: 18
+- service: Skirt with lining shorten
+  price: 20
+- service: Coat raise up
+  price: 35
+- service: Coat sleeves shorten
+  price: 35
+- service: Shirt sleeves shorten
+  price: 20
+- service: Jacket sleeves shorten
+  price: 35
+- service: Pants change zipper
+  price: 18
+- service: Dress change zipper
+  price: 20
+- service: Jacket change zipper
+  price: 28
+- service: Pants adjust waist
+  price: 18
+- service: Skirt adjust waist
+  price: 22
+- service: Coat change lining
+  price: 90 up
+- service: Jacket change lining
+  price: 70 up
+- service: Skirt change lining
+  price: 45 up
+- service: Pants change lining
+  price: 50 up

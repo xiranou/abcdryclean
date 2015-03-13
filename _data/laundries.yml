@@ -1,0 +1,6 @@
+- service: Shirts
+  price: 2.20 / Wash Hanger
+- service: Shirts(Box)
+  price: 2.50 / Wash Box
+- service: Shirts(Hand Iron)
+  price: 3.80/Wash/Hanger

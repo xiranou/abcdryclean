@@ -1,42 +1,53 @@
 ---
 layout: default
 ---
-<table>
-  <caption>Alteration</caption>
-  {% for alteration in site.data.alterations %}
-    <tr>
-      <td>{{alteration.service}}</td>
-      <td>${{alteration.price}}</td>
-    </tr>
-  {% endfor %}
-</table>
+<div class="container">
+  <div class="row">
 
-<table>
-  <caption>Laundry</caption>
-  {% for laundry in site.data.laundries %}
-    <tr>
-      <td>{{laundry.service}}</td>
-      <td>${{laundry.price}}</td>
-    </tr>
-  {% endfor %}
-</table>
+    <div class="col-md-6">
+      <table class="table table-striped">
+        <caption>Alteration</caption>
+        {% for alteration in site.data.alterations %}
+        <tr>
+          <td>{{alteration.service}}</td>
+          <td>${{alteration.price}}</td>
+        </tr>
+        {% endfor %}
+      </table>
+    </div>
 
-<table>
-  <caption>Dry Clean</caption>
-  {% for dry_clean in site.data.dry_cleans %}
-    <tr>
-      <td>{{dry_clean.service}}</td>
-      <td>${{dry_clean.price}}</td>
-    </tr>
-  {% endfor %}
-</table>
+    <div class="col-md-6">
+      <table class="table table-striped">
+        <caption>Laundry</caption>
+        {% for laundry in site.data.laundries %}
+        <tr>
+          <td>{{laundry.service}}</td>
+          <td>${{laundry.price}}</td>
+        </tr>
+        {% endfor %}
+      </table>
 
-<table>
-  <caption>Iron Only</caption>
-  {% for iron in site.data.irons %}
-    <tr>
-      <td>{{iron.service}}</td>
-      <td>${{iron.price}}</td>
-    </tr>
-  {% endfor %}
-</table>
+      <table class="table table-striped">
+        <caption>Dry Clean</caption>
+        {% for dry_clean in site.data.dry_cleans %}
+        <tr>
+          <td>{{dry_clean.service}}</td>
+          <td>${{dry_clean.price}}</td>
+        </tr>
+        {% endfor %}
+      </table>
+
+      <table class="table table-striped">
+        <caption>Iron Only</caption>
+        {% for iron in site.data.irons %}
+        <tr>
+          <td>{{iron.service}}</td>
+          <td>${{iron.price}}</td>
+        </tr>
+        {% endfor %}
+      </table>
+    </div>
+
+  </div>
+</div>
+
